@@ -1,0 +1,39 @@
+body {
+    background-image: url("images/background.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+@font-face {
+    font-family: "Triforce";
+    src: url(/font/Triforce.ttf);
+}
+
+.text {
+
+    font-family: 'Triforce';
+    text-align: center;
+    color: #c71a29;
+    font-size: 2.5em;
+
+}
+
+#img {
+
+    display: flex;
+    justify-content: center;
+}
+
+.not_found {
+    text-align: center;
+}
+
+.img_not_found {
+    display: block;
+    margin: 0 auto;
+
+
+
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: #232323;
+    /* Azul oscuro inspirado en Hyrule */
+    color: #ffffff;
+    /* Texto blanco para contraste */
+    font-family: 'Press Start 2P', cursive;
+    /* Fuente retro */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #ffd700;
+    /* Dorado para el título */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #004d00;
+    /* Verde oscuro inspirado en los bosques de Zelda */
+    border: 2px solid #ffd700;
+    /* Borde dorado */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    /* Sombra para dar profundidad */
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input[type="text"] {
+    border: 2px solid #ffd700;
+    /* Borde dorado */
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 24px);
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    /* Fuente retro */
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ffd700;
+    /* Fondo dorado */
+    border: 2px solid #0b3d91;
+    /* Borde azul oscuro */
+    border-radius: 5px;
+    color: #0b3d91;
+    /* Texto azul oscuro */
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+    /* Fuente retro */
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b3d91;
+    /* Fondo azul oscuro al pasar el ratón */
+    color: #ffd700;
+    /* Texto dorado al pasar el ratón */
+}
+
+.resultado {
+    background-color: #004d00;
+    /* Verde oscuro */
+    border: 2px solid #ffd700;
+    /* Borde dorado */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #000;
+    /* Sombra para dar profundidad */
+}
+
+a {
+    text-decoration: none;
+    color: #1E90FF;
+}
